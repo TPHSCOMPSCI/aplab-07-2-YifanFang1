@@ -1,10 +1,5 @@
 import java.awt.*;
-import java.awt.font.*;
-import java.awt.geom.*;
 import java.awt.image.BufferedImage;
-import java.text.*;
-import java.util.*;
-import java.util.List; // resolves problem with java.awt.List and java.util.List
 
 /**
  * A class that represents a picture.  This class inherits from 
@@ -18,6 +13,7 @@ public class Picture extends SimplePicture
     ///////////////////// constructors //////////////////////////////////
     private final int LOW_FILTER = 4;
     private final int HIGH_FILTER = 64;
+    public int length;
 
     /**
      * Constructor that takes no arguments 
